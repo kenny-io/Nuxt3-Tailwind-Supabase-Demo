@@ -1,4 +1,3 @@
-// import type { IncomingMessage, ServerResponse } from "http";
 import * as url from "url";
 import { createClient } from "@supabase/supabase-js";
 
@@ -16,7 +15,6 @@ export default async (req, res) => {
       const { data, error } = await supabase.from("Subscribers").upsert({
         email: email,
       });
-      console.log(data, error);
       response = data;
     }
     res.writeHead(200, { "Content-Type": "application/json" });

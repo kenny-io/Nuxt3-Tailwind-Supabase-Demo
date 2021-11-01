@@ -9,11 +9,10 @@
     "@nuxtjs/tailwindcss": "^4.2.1",
     "autoprefixer": "^10.3.7",
     "nuxt3": "latest",
-    "postcss": "^8.3.10",
+    "postcss": "^8.3.11",
     "tailwindcss": "^2.2.17"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^1.25.1",
-    "axios": "^0.23.0"
+    "@supabase/supabase-js": "^1.25.1"
   }
 }
